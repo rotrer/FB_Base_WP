@@ -1,0 +1,207 @@
+@import url(http://fonts.googleapis.com/css?family=Judson:400,700,400italic|Quicksand:300,400,700|Quattrocento:400,700);
+html {
+  height: 100%;
+}
+html body {
+  height: 100%;
+}
+html body .img-responsive {
+  margin: 0 auto;
+}
+html body .container {
+  padding: 0 !important;
+  max-width: 100% !important;
+}
+html body .container.wrap {
+  height: 96.4%;
+  max-height: 100%;
+}
+html body .container .row {
+  margin: 0 !important;
+}
+html body .container .row p {
+  font-family: 'Judson', serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+}
+html body .container .row h2 {
+  font-family: 'Quattrocento', serif;
+  font-size: 52px;
+  text-transform: uppercase;
+}
+html body .container .row h2span {
+  font-size: 62px;
+}
+html body .container .row.cont_index {
+  height: 100%;
+  min-height: 800px;
+}
+html body .container .row.cont_index .cont_cat {
+  background-image: url('../img/bg_cat.gif');
+  background-position: center top;
+  height: 100%;
+  max-height: 100%;
+}
+html body .container .row.cont_index .cont_cat p.up {
+  color: #fff;
+  max-width: 380px;
+  margin: 40px auto 0;
+  text-shadow: 2px 2px 5px #000;
+  font-size: 25px;
+}
+html body .container .row.cont_index .cont_cat p.low {
+  width: 224px;
+  margin: 0 auto;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+html body .container .row.cont_index .cont_cat .sociales {
+  margin-top: 20px;
+}
+html body .container .row.cont_index .cont_cat .sociales .redestw {
+  background-image: url('../img/redes.png');
+  background-position: left center;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+html body .container .row.cont_index .cont_cat .sociales .redespi {
+  background-image: url('../img/redes.png');
+  background-position: left center;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  margin-right: 10px;
+  background-position: 75px -30px;
+}
+html body .container .row.cont_index .cont_cat .sociales .redesfb {
+  background-image: url('../img/redes.png');
+  background-position: left center;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  margin-right: 10px;
+  background-position: 30px -60px;
+}
+html body .container .row.cont_index .cont_cat .logo {
+  margin: 47% auto 0;
+}
+html body .container .row .cont_secc {
+  padding-top: 20%;
+  height: 100%;
+  max-height: 100%;
+  text-align: center;
+}
+html body .container .row .cont_secc.cont_game {
+  background-color: #cd8287;
+  color: #fff;
+  background-image: url('../img/pattern_game.gif');
+  cursor: pointer;
+}
+html body .container .row .cont_secc.cont_game h2 a {
+  color: #fff;
+}
+html body .container .row .cont_secc.cont_game:hover {
+  opacity: .5;
+}
+html body .container .row .cont_secc.cont_bra {
+  background-color: #f8edeb;
+  color: #cc9999;
+  background-image: url('../img/pattern_bra.gif');
+  cursor: pointer;
+}
+html body .container .row .cont_secc.cont_bra:hover {
+  opacity: .5;
+}
+html body .top_line {
+  background-image: url('../img/border_body.gif');
+  width: 100%;
+  height: 3px;
+  position: relative;
+  z-index: 9;
+}
+html body .top_ripley {
+  width: 100%;
+  background-image: url('../img/bg_head_ripley.png');
+  background-color: #000;
+}
+html body .top_ripley ul {
+  padding: 8px 0;
+  margin: 0 0 0 20px;
+}
+html body .top_ripley ul li {
+  border-right: 1px solid #333;
+  margin: 0 5px;
+  padding: 0 10px 0 0;
+}
+html body .top_ripley ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+html body .top_ripley ul li:last-child {
+  border: none;
+}
+html body .footer-fixed {
+  position: relative;
+  margin-top: -50px;
+  clear: both;
+  padding-top: 5px;
+  background-color: #ddd;
+  color: #000;
+  min-height: 34px;
+}
+html body .footer-fixed p {
+  font-family: Arial, Sans-serif;
+  font-size: 12px !important;
+}
+@media (max-width: ) {
+  body .container .row.cont_index {
+    min-height: 480px !important;
+  }
+  body .container .row.cont_index .cont_cat {
+    height: 291px !important;
+    background-size: 140%;
+    background-position: -40px 20% !important;
+  }
+  body .container .row.cont_index .cont_cat p.up {
+    font-size: 18px !important;
+    width: 273px;
+    margin-top: 10px !important;
+  }
+  body .container .row.cont_index .cont_cat .logo {
+    margin-top: 50px !important;
+    max-width: 155px;
+  }
+  body .container .row .cont_secc {
+    padding-top: 10px !important;
+    height: 64px !important;
+    text-align: left !important;
+  }
+  body .container .row .cont_secc.cont_cat2 {
+    background-image: url('../img/pattern_cat.gif');
+    color: #c67266 !important;
+  }
+  body .container .row .cont_secc h2 {
+    font-size: 32px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1;
+  }
+  body .container .row .cont_secc p {
+    font-size: 14px !important;
+  }
+  body .container .row .cont_secc .flor_mob {
+    padding-top: 5px;
+  }
+  body .container .row .cont_secc .flor_mob {
+    padding-top: 5px;
+  }
+  body .container .row .cont_secc .flor_mob img {
+    max-width: 49px;
+  }
+}
